@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/html5-reset.css">
+<link rel="stylesheet" href="css/style.css">
+<title>DEMO - single-3.html</title>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="entry">
+    <div class="entry-content">DEMO - single-3.html</div>
+  </div>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery.infinite-scroll.js"></script>
+<script type="text/javascript">
+$('.container').runInfiniteScroll({
+  container: '.container',
+  content: '.entry',
+  next: '.next',
+});
+</script>
+
+</body>
+</html>
